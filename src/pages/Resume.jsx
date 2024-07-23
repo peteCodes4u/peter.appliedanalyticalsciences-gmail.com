@@ -6,4 +6,4 @@ export default function Resume() {
         <a href="">Link To Resume</a>
       </div>
     );
-};
+}
