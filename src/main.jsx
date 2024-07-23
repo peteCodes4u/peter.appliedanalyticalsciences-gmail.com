@@ -10,7 +10,6 @@ import Aboutme from './pages/Aboutme';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import React from 'react';
 
 const router = createBrowserRouter([
     {
