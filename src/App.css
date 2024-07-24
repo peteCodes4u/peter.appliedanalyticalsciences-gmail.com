@@ -1,0 +1,35 @@
+.content {
+    background-color: rgb(18, 5, 29);
+    color: white;
+    font-family: 'Concert One', sans-serif;
+    padding: 20px;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    background-image: linear-gradient(to left, #06f1ed, #01ff4d);
+    font-family: 'Concert One', sans-serif;
+}
+
+li {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Permanent Marker';
+}
+
+h2 {
+    font-family: 'Permanent Marker';
+    color: #ff016f;
+    padding: 10px;
+}
+
+#main-heading {
+    margin-right: 50%;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}

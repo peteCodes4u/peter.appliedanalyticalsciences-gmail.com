@@ -1,10 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
 
 function NavigationTabs() {
-    const currentPage = useLocation().pathname;
+  const currentPage = useLocation().pathname;
 
-    return (
-        <ul className="nav nav-tabs">
+  return (
+    <ul id="nav" className="nav nav-tabs">
+      <h1 id="main-heading">Peter J. Smith</h1>
         <li className="nav-item">
           <Link
             to="/"
@@ -37,8 +38,8 @@ function NavigationTabs() {
             Contact
           </Link>
         </li>
-      </ul>
-    )
+    </ul>
+  )
 }
 
 export default NavigationTabs;
