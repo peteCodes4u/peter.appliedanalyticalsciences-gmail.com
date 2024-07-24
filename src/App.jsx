@@ -1,3 +1,7 @@
+// styling
+import React from 'react';
+import './App.css';
+
 // pull in components from the 'react-router-dom'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavigationTabs';
@@ -7,7 +11,7 @@ function App() {
     return(
         <>
         <Nav />
-        <main className="">
+        <main className="content">
             <Outlet />
         </main>
         </>
