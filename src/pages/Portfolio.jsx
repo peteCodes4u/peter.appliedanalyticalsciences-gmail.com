@@ -2,6 +2,8 @@ import grfxDxnrGif from '../assets/grafxDznr_p_gif.gif';
 import worXpaceGif from '../assets/worXpace_p_gif.gif';
 import teqTokGif from '../assets/teqTok_p_gif.gif';
 import snipItGif from '../assets/snipIt_p_gif.gif';
+import evangelosGif from '../assets/evangelos_p_gif.gif'
+import aeolusGif from '../assets/ask-aeolus_p_gif.gif'
 
 export default function Portfolio() {
   return (
@@ -28,13 +30,13 @@ export default function Portfolio() {
     <img id="" className="portfolio-item" src={snipItGif}></img>
     <h4>👾 snip-it - Progressive Web Application</h4>
     </a>
-    <a href="https://github.com/peteCodes4u/grfxDznr">
-    <img id="" className="portfolio-item" src={grfxDxnrGif}></img>
-    <h4>🚀 grfxDznr - node.js svg generator</h4>
+    <a href="https://github.com/peteCodes4u/evangelos">
+    <img id="" className="portfolio-item" src={evangelosGif}></img>
+    <h4>🚀 evangelos - NoSQL API framework</h4>
     </a>
-    <a href="https://github.com/peteCodes4u/grfxDznr">
-    <img id="" className="portfolio-item" src={grfxDxnrGif}></img>
-    <h4>☄️ grfxDznr - node.js svg generator</h4>
+    <a href="https://github.com/peteCodes4u/Ask-Aeolus">
+    <img id="" className="portfolio-item" src={aeolusGif}></img>
+    <h4>☄️ Ask-Aeolus - Weather forecasting app</h4>
     </a>
     </section>
     </div>
