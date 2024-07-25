@@ -1,10 +1,11 @@
 // styling
-import React from 'react';
+// import React from 'react';
 import './App.css';
 
 // pull in components from the 'react-router-dom'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavigationTabs';
+import Footer from './components/Footer';
 
 function App() {
     // outlet component to switch between diff pages according to url
@@ -14,6 +15,7 @@ function App() {
         <main className="content">
             <Outlet />
         </main>
+        <Footer />
         </>
     );
 }
