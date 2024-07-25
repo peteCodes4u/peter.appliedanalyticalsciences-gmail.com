@@ -1,4 +1,7 @@
 import grfxDxnrGif from '../assets/grafxDznr_p_gif.gif';
+import worXpaceGif from '../assets/worXpace_p_gif.gif';
+import teqTokGif from '../assets/teqTok_p_gif.gif';
+import snipItGif from '../assets/snipIt_p_gif.gif';
 
 export default function Portfolio() {
   return (
@@ -8,30 +11,30 @@ export default function Portfolio() {
     <br></br>
     <section className="portfolio-topics">
     <a href="https://github.com/peteCodes4u/grfxDznr">
-    <img id="" className="portfolio-item" src={grfxDxnrGif}></img>
-    <h4>👽 grfxDznr - node.js svg generator</h4>
+    <img id="" className="portfolio-item" src={teqTokGif}></img>
+    <h4>👽 TeqTok - CMS-style blog site</h4>
     </a>
     <a href="https://github.com/peteCodes4u/worXpace">
-    <img id="" className="portfolio-item" src={grfxDxnrGif}></img>
-    <h4>🛸 worXpace - node.js and postgres data managment framework</h4>
+    <img id="" className="portfolio-item" src={worXpaceGif}></img>
+    <h4>🛸 worXpace - postgres data mgmt framework</h4>
     </a>
     <a href="https://github.com/peteCodes4u/grfxDznr">
     <img id="" className="portfolio-item" src={grfxDxnrGif}></img>
-    <h4>👽 grfxDznr - node.js svg generator</h4>
+    <h4>🥑 grfxDznr - node.js svg generator</h4>
     </a>
     </section>
     <section className="portfolio-topics">
-    <a href="https://github.com/peteCodes4u/grfxDznr">
-    <img id="" className="portfolio-item" src={grfxDxnrGif}></img>
-    <h4>👽 grfxDznr - node.js svg generator</h4>
+    <a href="https://github.com/peteCodes4u/snip-it">
+    <img id="" className="portfolio-item" src={snipItGif}></img>
+    <h4>👾 snip-it - Progressive Web Application</h4>
     </a>
     <a href="https://github.com/peteCodes4u/grfxDznr">
     <img id="" className="portfolio-item" src={grfxDxnrGif}></img>
-    <h4>👽 grfxDznr - node.js svg generator</h4>
+    <h4>🚀 grfxDznr - node.js svg generator</h4>
     </a>
     <a href="https://github.com/peteCodes4u/grfxDznr">
     <img id="" className="portfolio-item" src={grfxDxnrGif}></img>
-    <h4>👽 grfxDznr - node.js svg generator</h4>
+    <h4>☄️ grfxDznr - node.js svg generator</h4>
     </a>
     </section>
     </div>
