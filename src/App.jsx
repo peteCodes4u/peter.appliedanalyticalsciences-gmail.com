@@ -1,5 +1,4 @@
 // styling
-// import React from 'react';
 import './App.css';
 
 // pull in components from the 'react-router-dom'
