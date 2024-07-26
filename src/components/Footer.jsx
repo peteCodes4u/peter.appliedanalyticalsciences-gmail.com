@@ -7,18 +7,24 @@ function Footer() {
         <footer id="footer">
             <section>
                 <ul id="footer-links" className="">
-                    <h2 className="footer-item">
-                        <img className="logos" src={footerIcon1}></img>
-                        <a href="https://www.linkedin.com/in/peter-smith-117ba91a4/">LinkedIn</a>
-                    </h2>
-                    <h2 className="footer-item">
-                        <img className="logos" src={footerIcon2}></img>
-                        <a href="https://github.com/peteCodes4u">GitHub</a>
-                    </h2>
-                    <h2 className="footer-item">
-                        <img className="logos" src={footerIcon3}></img>
-                        <a href="https://dev.to/petecodes4u">dev.to</a>
-                    </h2>
+                    <section className="footer-item">
+                    <a href="https://www.linkedin.com/in/peter-smith-117ba91a4/">
+                    <img className="logos" src={footerIcon1}></img>
+                    <h3>LinkedIn</h3>
+                    </a>
+                    </section>
+                    <section className="footer-item">
+                    <a href="https://github.com/peteCodes4u">
+                    <img className="logos" src={footerIcon2}></img>
+                    <h3>GitHub</h3>
+                    </a>
+                    </section>
+                    <section className="footer-item">
+                    <a href="https://dev.to/petecodes4u">
+                    <img className="logos" src={footerIcon3}></img>
+                    <h3>dev.to</h3>
+                    </a>
+                    </section>
                 </ul>
             </section>
         </footer>
