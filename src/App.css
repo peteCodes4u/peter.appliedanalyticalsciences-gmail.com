@@ -73,6 +73,11 @@ padding: 1%;
     flex-direction: row;
 }
 
+.error {
+    color:#ff016f
+}
+
+
 @media screen and (max-width: 768px) {
     .content {
         padding: 3vw;
