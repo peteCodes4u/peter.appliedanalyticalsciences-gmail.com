@@ -24,12 +24,7 @@ h1 {
     font-family: 'Permanent Marker';
 }
 
-h2 {
-    font-family: 'Permanent Marker';
-    color: #ff016f;
-}
-
-h3 {
+h2, h3, h4 {
     font-family: 'Permanent Marker';
     color: #ff016f;
 }
@@ -71,6 +66,12 @@ padding: 1%;
 .portfolio-topics {
     display: flex;
     flex-direction: row;
+}
+
+.portfolio-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .error {
