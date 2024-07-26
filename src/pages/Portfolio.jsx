@@ -67,43 +67,5 @@ export default function Portfolio() {
     </a>
     </section>
     </div>
-    
-    // <section id="portfolio-bucket">
-    //   <section id="page-title">
-    //   <h2>Portfolio</h2>
-    //   </section> 
-    //   <section className="portfilio-cards">
-    //     <a id="" className="" href="">
-    //       <section className="card">
-    //         <h3>👽 - Example 1 </h3>
-    //       </section>
-    //     </a>
-    //     <a id="" className="" href="">
-    //       <section className="card">
-    //         <h3>🛸 - Example 2 </h3>
-    //       </section>
-    //     </a>
-    //     <a id="" className="" href="">
-    //       <section className="card">
-    //         <h3>💀 - Example 3  </h3>
-    //       </section>
-    //     </a>
-    //     <a id="" className="" href="">
-    //       <section className="card">
-    //         <h3>🥑 - Example 4 </h3>
-    //       </section>
-    //     </a>
-    //     <a id="" className="" href="">
-    //       <section className="card">
-    //         <h3>👾 - Example 5 </h3>
-    //       </section>
-    //     </a>
-    //     <a id="" className="" href="">
-    //       <section className="card">
-    //         <h3>🌌 - Example 6 </h3>
-    //       </section>
-    //     </a>
-    //   </section>
-    // </section>
   )
 }
