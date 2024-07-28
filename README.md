@@ -19,6 +19,9 @@ The intended usage for this application is to demonstrate my portfolio of dev wo
 
 ![](./src/assets/pjs-react-portfolio_demo.gif)
 
+## Link to deployed app
+https://peter-smith-dev-portfolio.netlify.app/
+
 ## License
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
